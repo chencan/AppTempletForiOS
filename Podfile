@@ -17,7 +17,7 @@ target 'AwsomeTemplateiOS' do
   pod 'MBProgressHUD'
   pod 'M13ProgressSuite'
   pod 'MJRefresh'
-  pod "MBCircularProgressBar"
+  pod 'MBCircularProgressBar'
 #   pod 'XLPagerTabStrip'
   pod 'TYPagerController'
   pod 'RDVTabBarController'
@@ -31,7 +31,7 @@ target 'AwsomeTemplateiOS' do
   pod 'DateTools'
   pod 'SSZipArchive'
   pod 'FMDB'
-  pod "FastttCamera"
+  pod 'FastttCamera'
   pod 'SCRecorder'
   pod 'JVFloatLabeledTextField'
   pod 'YYKit'

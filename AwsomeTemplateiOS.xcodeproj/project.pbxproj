@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		8D0F85CA1E51B966002169E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F85C91E51B966002169E5 /* main.m */; };
 		8D0F85CD1E51B966002169E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F85CC1E51B966002169E5 /* AppDelegate.m */; };
-		8D0F85D31E51B966002169E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F85D11E51B966002169E5 /* Main.storyboard */; };
 		8D0F85D51E51B966002169E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F85D41E51B966002169E5 /* Assets.xcassets */; };
 		8D0F85D81E51B966002169E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F85D61E51B966002169E5 /* LaunchScreen.storyboard */; };
 		8D0F85E31E51B966002169E5 /* AwsomeTemplateiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F85E21E51B966002169E5 /* AwsomeTemplateiOSTests.m */; };
 		8D0F85EE1E51B966002169E5 /* AwsomeTemplateiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F85ED1E51B966002169E5 /* AwsomeTemplateiOSUITests.m */; };
+		8DAA96AD1E52A81A003C8B15 /* MSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96AB1E52A81A003C8B15 /* MSDiscoverViewController.m */; };
+		8DAA96AE1E52A81A003C8B15 /* MSDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA96AC1E52A81A003C8B15 /* MSDiscoverViewController.xib */; };
+		8DAA96B21E52A839003C8B15 /* MSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96B01E52A839003C8B15 /* MSHomeViewController.m */; };
+		8DAA96B31E52A839003C8B15 /* MSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA96B11E52A839003C8B15 /* MSHomeViewController.xib */; };
+		8DAA96B71E52A84D003C8B15 /* MSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96B51E52A84D003C8B15 /* MSMessageViewController.m */; };
+		8DAA96B81E52A84D003C8B15 /* MSMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA96B61E52A84D003C8B15 /* MSMessageViewController.xib */; };
+		8DAA96BC1E52A85E003C8B15 /* MSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96BA1E52A85E003C8B15 /* MSMineViewController.m */; };
+		8DAA96BD1E52A85E003C8B15 /* MSMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA96BB1E52A85E003C8B15 /* MSMineViewController.xib */; };
 		9DEA3F18BB5465E80F283892 /* Pods_AwsomeTemplateiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B0AF332F5F77C73CC8C97 /* Pods_AwsomeTemplateiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +48,6 @@
 		8D0F85C91E51B966002169E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D0F85CB1E51B966002169E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D0F85CC1E51B966002169E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D0F85D21E51B966002169E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D0F85D41E51B966002169E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0F85D71E51B966002169E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D0F85D91E51B966002169E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,18 @@
 		8D0F85E91E51B966002169E5 /* AwsomeTemplateiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwsomeTemplateiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0F85ED1E51B966002169E5 /* AwsomeTemplateiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwsomeTemplateiOSUITests.m; sourceTree = "<group>"; };
 		8D0F85EF1E51B966002169E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAA96AA1E52A81A003C8B15 /* MSDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDiscoverViewController.h; sourceTree = "<group>"; };
+		8DAA96AB1E52A81A003C8B15 /* MSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDiscoverViewController.m; sourceTree = "<group>"; };
+		8DAA96AC1E52A81A003C8B15 /* MSDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSDiscoverViewController.xib; sourceTree = "<group>"; };
+		8DAA96AF1E52A839003C8B15 /* MSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHomeViewController.h; sourceTree = "<group>"; };
+		8DAA96B01E52A839003C8B15 /* MSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHomeViewController.m; sourceTree = "<group>"; };
+		8DAA96B11E52A839003C8B15 /* MSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSHomeViewController.xib; sourceTree = "<group>"; };
+		8DAA96B41E52A84D003C8B15 /* MSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMessageViewController.h; sourceTree = "<group>"; };
+		8DAA96B51E52A84D003C8B15 /* MSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMessageViewController.m; sourceTree = "<group>"; };
+		8DAA96B61E52A84D003C8B15 /* MSMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSMessageViewController.xib; sourceTree = "<group>"; };
+		8DAA96B91E52A85E003C8B15 /* MSMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMineViewController.h; sourceTree = "<group>"; };
+		8DAA96BA1E52A85E003C8B15 /* MSMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMineViewController.m; sourceTree = "<group>"; };
+		8DAA96BB1E52A85E003C8B15 /* MSMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSMineViewController.xib; sourceTree = "<group>"; };
 		E49B0AF332F5F77C73CC8C97 /* Pods_AwsomeTemplateiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwsomeTemplateiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,10 +142,11 @@
 			children = (
 				8D0F85CB1E51B966002169E5 /* AppDelegate.h */,
 				8D0F85CC1E51B966002169E5 /* AppDelegate.m */,
-				8D0F85D11E51B966002169E5 /* Main.storyboard */,
+				8DAA96981E52A7C3003C8B15 /* Classes */,
 				8D0F85D41E51B966002169E5 /* Assets.xcassets */,
 				8D0F85D61E51B966002169E5 /* LaunchScreen.storyboard */,
 				8D0F85D91E51B966002169E5 /* Info.plist */,
+				8DAA96A91E52A7EB003C8B15 /* Lib */,
 				8D0F85C81E51B966002169E5 /* Supporting Files */,
 			);
 			path = AwsomeTemplateiOS;
@@ -157,6 +176,160 @@
 				8D0F85EF1E51B966002169E5 /* Info.plist */,
 			);
 			path = AwsomeTemplateiOSUITests;
+			sourceTree = "<group>";
+		};
+		8DAA96981E52A7C3003C8B15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA969D1E52A7C3003C8B15 /* Home */,
+				8DAA96991E52A7C3003C8B15 /* Discover */,
+				8DAA96A11E52A7C3003C8B15 /* Message */,
+				8DAA96A51E52A7C3003C8B15 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8DAA96991E52A7C3003C8B15 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA969A1E52A7C3003C8B15 /* Controller */,
+				8DAA969B1E52A7C3003C8B15 /* Model */,
+				8DAA969C1E52A7C3003C8B15 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8DAA969A1E52A7C3003C8B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96AA1E52A81A003C8B15 /* MSDiscoverViewController.h */,
+				8DAA96AB1E52A81A003C8B15 /* MSDiscoverViewController.m */,
+				8DAA96AC1E52A81A003C8B15 /* MSDiscoverViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DAA969B1E52A7C3003C8B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DAA969C1E52A7C3003C8B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DAA969D1E52A7C3003C8B15 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA969E1E52A7C3003C8B15 /* Controller */,
+				8DAA969F1E52A7C3003C8B15 /* Model */,
+				8DAA96A01E52A7C3003C8B15 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DAA969E1E52A7C3003C8B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96AF1E52A839003C8B15 /* MSHomeViewController.h */,
+				8DAA96B01E52A839003C8B15 /* MSHomeViewController.m */,
+				8DAA96B11E52A839003C8B15 /* MSHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DAA969F1E52A7C3003C8B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DAA96A01E52A7C3003C8B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DAA96A11E52A7C3003C8B15 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96A21E52A7C3003C8B15 /* Controller */,
+				8DAA96A31E52A7C3003C8B15 /* Model */,
+				8DAA96A41E52A7C3003C8B15 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8DAA96A21E52A7C3003C8B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96B41E52A84D003C8B15 /* MSMessageViewController.h */,
+				8DAA96B51E52A84D003C8B15 /* MSMessageViewController.m */,
+				8DAA96B61E52A84D003C8B15 /* MSMessageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DAA96A31E52A7C3003C8B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DAA96A41E52A7C3003C8B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DAA96A51E52A7C3003C8B15 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96A61E52A7C3003C8B15 /* Controller */,
+				8DAA96A71E52A7C3003C8B15 /* Model */,
+				8DAA96A81E52A7C3003C8B15 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8DAA96A61E52A7C3003C8B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96B91E52A85E003C8B15 /* MSMineViewController.h */,
+				8DAA96BA1E52A85E003C8B15 /* MSMineViewController.m */,
+				8DAA96BB1E52A85E003C8B15 /* MSMineViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DAA96A71E52A7C3003C8B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DAA96A81E52A7C3003C8B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DAA96A91E52A7EB003C8B15 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +444,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAA96AE1E52A81A003C8B15 /* MSDiscoverViewController.xib in Resources */,
+				8DAA96B31E52A839003C8B15 /* MSHomeViewController.xib in Resources */,
+				8DAA96B81E52A84D003C8B15 /* MSMessageViewController.xib in Resources */,
+				8DAA96BD1E52A85E003C8B15 /* MSMineViewController.xib in Resources */,
 				8D0F85D81E51B966002169E5 /* LaunchScreen.storyboard in Resources */,
 				8D0F85D51E51B966002169E5 /* Assets.xcassets in Resources */,
-				8D0F85D31E51B966002169E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +523,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0F85CD1E51B966002169E5 /* AppDelegate.m in Sources */,
+				8DAA96B21E52A839003C8B15 /* MSHomeViewController.m in Sources */,
+				8DAA96AD1E52A81A003C8B15 /* MSDiscoverViewController.m in Sources */,
+				8DAA96BC1E52A85E003C8B15 /* MSMineViewController.m in Sources */,
+				8DAA96B71E52A84D003C8B15 /* MSMessageViewController.m in Sources */,
 				8D0F85CA1E51B966002169E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,14 +563,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D0F85D11E51B966002169E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D0F85D21E51B966002169E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D0F85D61E51B966002169E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -587,6 +759,7 @@
 				8D0F85F41E51B966002169E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D0F85F51E51B966002169E5 /* Build configuration list for PBXNativeTarget "AwsomeTemplateiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +768,7 @@
 				8D0F85F71E51B966002169E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D0F85F81E51B966002169E5 /* Build configuration list for PBXNativeTarget "AwsomeTemplateiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +777,7 @@
 				8D0F85FA1E51B966002169E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
