@@ -178,9 +178,25 @@
 			path = AwsomeTemplateiOSUITests;
 			sourceTree = "<group>";
 		};
+		8D0FC2F71E52EDBA00D828F5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FC2F81E52EDBA00D828F5 /* Networking */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8D0FC2F81E52EDBA00D828F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		8DAA96981E52A7C3003C8B15 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8D0FC2F71E52EDBA00D828F5 /* Utility */,
 				8DAA969D1E52A7C3003C8B15 /* Home */,
 				8DAA96991E52A7C3003C8B15 /* Discover */,
 				8DAA96A11E52A7C3003C8B15 /* Message */,
