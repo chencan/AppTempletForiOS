@@ -62,6 +62,11 @@
                                   @"discover",
                                   @"message",
                                   @"mine"];
+    // if tabbar has titles ,the icons of tabbar item should be resized;
+    NSArray *tabBarItemTitles =  @[@"home",
+                                   @"discover",
+                                   @"message",
+                                   @"mine"];
     NSInteger index = 0;
     for (RDVTabBarItem *item in [[tabBarController tabBar] items]) {
         [item setBackgroundSelectedImage:finishedImage withUnselectedImage:unfinishedImage];
@@ -70,7 +75,7 @@
         UIImage *unselectedimage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_normal",
                                                         [tabBarItemImages objectAtIndex:index]]] imageWithRenderingMode:UIImageRenderingModeAutomatic];
         [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
-        
+        [item setTitle:tabBarItemTitles[index]];
         index++;
     }
     // tabbar background color
